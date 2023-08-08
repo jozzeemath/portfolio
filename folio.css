@@ -1,0 +1,193 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kaushan Script', cursive;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+}
+.logo
+{
+    width: 130px;
+}
+.listitem
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.links
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.links:hover
+{
+    color: blue;
+}
+.title
+{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.title_1
+{
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+.lname
+{
+    color: brown;
+}
+.download
+{
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.title-image
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.title-image img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s ,left 2s;
+}
+.title-image:hover #shape
+{
+    bottom: 70px;
+}
+.title-image:hover #girl
+{
+    left: 40%;
+}
+#about
+{
+    margin: 13% 8% 0px 8%;
+}
+.heading
+{
+text-align: center;
+}
+.heading h2
+{
+    font-size: 30px;
+}
+.heading span
+{
+    color: green;
+    font-size: 15px;
+}
+.about-content
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.about-image img
+{
+width: 80%;
+border-radius: 3px;
+}
+.about-details
+{
+    font-size: 15px;
+    font: weight 500;    
+    text-align: justify;
+
+}
+.information
+{
+    margin-top: 2rem;
+}
+.infobox{
+   margin-top: 2rem;
+}
+.infobox span
+{
+    margin-left: 2rem;
+}
+    
+#skill
+{
+    margin: 8% 8% 0px 8%;
+}
+.skill-content
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skillimage img
+{
+    width: 90% ;
+}
+.bar-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+    
+}
+.basebar
+{
+    width: 100%;
+    height: .5rem;
+    background-color: black;
+border-radius: .5rem;
+position: absolute;
+bottom: 0%;
+
+}
+.htmlbar
+{
+    background-color: orange;
+    width: 83%;
+}
+.jojo
+{
+    background-color: aqua;
+    width: 90%;
+}
+.ji
+{
+    background-color: aquamarine;
+    width: 83%;
+}
+.ci{
+    background-color: blue;
+    width: 95%;
+}
